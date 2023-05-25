@@ -42,12 +42,12 @@ public class CalculatorTest {
 	
 	@After
 	public void tearDown() throws Exception {
-		int a = 4;
+		int a = 5;
 		int b = 1;
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a, b);
 		
-		int expected = 4;
+		int expected = 5;
 		assertEquals (expected, actual);
 	}
 
